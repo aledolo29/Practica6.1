@@ -24,6 +24,10 @@ public class Metodos {
   public void multiplicar(int x, int y) {
     int multi = x * y;
     System.out.println("La multiplicacion es igual a " + multi);
+  }
 
+  public void dividir(int x, int y) {
+    int div = x / y;
+    System.out.println("La división es igual a " + div);
   }
 }
