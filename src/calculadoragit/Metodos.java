@@ -10,7 +10,7 @@ package calculadoragit;
  * @author Usuario
  */
 public class Metodos {
-  
+
   public void suma(int x, int y) {
     int suma = x + y;
     System.out.println("La suma es igual a " + suma);
@@ -19,5 +19,11 @@ public class Metodos {
   public void resta(int x, int y) {
     int resta = x - y;
     System.out.println("La resta es igual a " + resta);
+  }
+
+  public void multiplicar(int x, int y) {
+    int multi = x * y;
+    System.out.println("La multiplicacion es igual a " + multi);
+
   }
 }
