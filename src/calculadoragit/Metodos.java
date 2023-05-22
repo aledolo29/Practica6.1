@@ -30,4 +30,9 @@ public class Metodos {
     int div = x / y;
     System.out.println("La división es igual a " + div);
   }
+
+  public void modulo(int x, int y) {
+    int modulo = x % y;
+    System.out.println("El modulo de la division es " + modulo);
+  }
 }
